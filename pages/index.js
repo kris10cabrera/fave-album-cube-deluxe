@@ -51,30 +51,11 @@ export default function Home() {
       <Head>
         <title>fave album cube by kris10cabrera</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-        <title>fave album cube by kris10cabrera</title>
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-        <meta name="title" content="favorite album cube, deluxe" />
-        <meta name="description" content="my favorite albums of the last 4 weeks. made by kris10cabrera using the spotify api"/>
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://fave-album-cube-deluxe.vercel.app/" />
-        <meta property="og:title" content="favorite album cube, deluxe" />
-        <meta property="og:description" content="my favorite albums of the last 4 weeks. by kris10cabrera using the spotify api"/>
-        <meta property="og:image" content="https://fave-album-cube-deluxe.vercel.app/meta.jpg" />
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://fave-album-cube-deluxe.vercel.app/" />
-        <meta property="twitter:title" content="favorite album cube, deluxe" />
-        <meta property="twitter:description" content="my favorite albums of the last 4 weeks. by kris10cabrera using the spotify api"/>
-        <meta property="twitter:image" content="https://fave-album-cube-deluxe.vercel.app/meta.jpg" />
       </Head>
       <main>
         <header>
           <h1>here is a cube of my favorite albums</h1>
-          <span>*of the last 4 weeks. made by <a href="https://www.kristencabrera.com/">kris10cabrera</a> using the spotify api</span>
+          <span className="byline">*of the last 4 weeks. made by <a href="https://www.kristencabrera.com/">kris10cabrera</a> using the <span style={{whiteSpace: 'nowrap'}}>Spotify API & Next.js</span></span>
         </header>
         <section className="parent">
           <section className="cube" style={cubeStyle}>

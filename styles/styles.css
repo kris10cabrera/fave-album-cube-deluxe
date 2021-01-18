@@ -38,7 +38,7 @@ h1 {
   background: #ffffff3d;
 }
 
-span {
+.byline {
   font-family: "Compagnon";
   font-weight: 300;
   font-style: italic;
@@ -121,7 +121,7 @@ a {
     padding: 10px 12px;
   }
 
-  span {
+ .byline {
     font-size: 20px;
     text-align: left;
     padding: 20px 10px;
