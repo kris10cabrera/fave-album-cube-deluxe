@@ -13,6 +13,12 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: "Trickster";
+  src: url("../fonts/Trickster-Regular.woff2") format("woff2"), url("../fonts/Trickster-Regular.woff2") format("woff");
+  font-weight: normal;
+}
+
 body {
   perspective: 1500px;
   height: 100vh;
