@@ -1,4 +1,4 @@
 ## fave album cube deluxe
-i remixed my previous [fave-album-cube](http://fave-album-cube.superhi.com/) using Next.js + the Spotify API to display my + possibly your most listened to albums of the past 4 weeks. 
+web app displaying some of my (+ possibly YOUR) most listened to albums of the last 4 weeks using the Spotify API + Next.js. this is a remix of my previous [fave-album-cube](http://fave-album-cube.superhi.com/).
 
 fonts courtesy of [NM Type](http://www.nmtype.com/) + [VTF](https://velvetyne.fr/)
