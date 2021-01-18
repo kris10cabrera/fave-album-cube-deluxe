@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "Movement";
+  src: url("../fonts/Movement-IndirectThin.woff2") format("woff2"),
+    url("../fonts/Movement-IndirectThin.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Sporting Grotesque";
+  src: url("../fonts/Sporting_Grotesque-Regular_web.woff2") format("woff2"),
+    url("../fonts/Sporting_Grotesque-Regular_web.woff") format("woff");
+  font-weight: normal;
+}
+
+  font-family: "Movement";
 .parent {
   transform: translate3d(0, 0, 0);
   padding-top: 50%;
