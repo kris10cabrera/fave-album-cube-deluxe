@@ -24,8 +24,6 @@ export default async (_, res) => {
       }
     }
   }
-
-  // const uniqueAlbums = uniqueAlbums.slice(0, 6);
-
+  
   return res.status(200).json({ uniqueAlbums });
 };
