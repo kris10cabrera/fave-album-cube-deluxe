@@ -17,16 +17,16 @@ class MyDocument extends Document {
           <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
           <meta name="title" content="ur fave albums by kris10cabrera" />
-          <meta name="description" content="my most played albums of the last 4 weeks via the Spotify API + Next.js. by kris10cabrera" />
+          <meta name="description" content="most played albums of the last 4 weeks via the Spotify API + Next.js. by kris10cabrera" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://fave-album-cube-deluxe.vercel.app/" />
           <meta property="og:title" content="ur fave albums by kris10cabrera" />
-          <meta property="og:description" content="my most played albums of the last 4 weeks via the Spotify API + Next.js. by kris10cabrera" />
+          <meta property="og:description" content="most played albums of the last 4 weeks via the Spotify API + Next.js. by kris10cabrera" />
           <meta property="og:image" content="https://fave-album-cube-deluxe.vercel.app/meta.jpg" />
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://fave-album-cube-deluxe.vercel.app/" />
           <meta property="twitter:title" content="ur fave albums by kris10cabrera" />
-          <meta property="twitter:description" content="my most played albums of the last 4 weeks via the Spotify API + Next.js. by kris10cabrera" />
+          <meta property="twitter:description" content="most played albums of the last 4 weeks via the Spotify API + Next.js. by kris10cabrera" />
           <meta property="twitter:image" content="https://fave-album-cube-deluxe.vercel.app/meta.jpg" />
         </Head>
         <body>
