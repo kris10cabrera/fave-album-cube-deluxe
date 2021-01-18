@@ -148,6 +148,11 @@ a {
     padding: 10px 12px;
   }
 
+  button {
+    top: 15%;
+    opacity: 1;
+  }
+
   button img {
     width: 300px;
   }
