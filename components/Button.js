@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 export default function Button({ fetchUser }) {
   const [button, showButton] = useState(true);
   const client_id = `ad145c69010649da928b415e62ba0343`;
-  const redirect_uri = `http://localhost:3000/`;
+  const redirect_uri = `https://fave-album-cube-deluxe.vercel.app/`;
   const scopes = `user-top-read`;
   const AUTHORIZATION_URL = `https://accounts.spotify.com/authorize?client_id=${client_id}&response_type=token&redirect_uri=${redirect_uri}&scope=${scopes}&show_dialog=true`
   const login = () => {
