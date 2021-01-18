@@ -8,6 +8,7 @@ import fetcher from '../lib/fetcher';
 export default function Home() {
   const [position, setPosition] = useState({ x: 50, y: 50 });
   const [page, setPagePosition] = useState({ x: 200, y: 600 });
+  const [user, fetchUser] = useState(null);
 
   const moveAlbums = (e) => {
     const x = e.pageX;
@@ -39,7 +40,7 @@ export default function Home() {
     return null;
   }
 
-  const albums = data.uniqueAlbums;
+  const albums = user ? user : data.uniqueAlbums;
   const names = ['top', 'side', 'cover', 'spine', 'back', 'bottom'];
 
   let cubeStyle = {
@@ -54,9 +55,9 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <main>
-        <Button />
+        <Button fetchUser={fetchUser} />
         <header>
-          <h1>here is a cube of my favorite albums</h1>
+          <h1>here is a cube of {user ? 'your' : 'my'} favorite albums</h1>
           <span className="byline">*of the last 4 weeks. made by <a href="https://www.kristencabrera.com/">kris10cabrera</a> using the <span style={{ whiteSpace: 'nowrap' }}>Spotify API & Next.js</span></span>
         </header>
         <section className="parent">
