@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { useState, useEffect } from 'react';
 import useSWR from 'swr';
+import Button from '../components/Button';
 import fetcher from '../lib/fetcher';
 
 
@@ -53,9 +54,10 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <main>
+        <Button />
         <header>
           <h1>here is a cube of my favorite albums</h1>
-          <span className="byline">*of the last 4 weeks. made by <a href="https://www.kristencabrera.com/">kris10cabrera</a> using the <span style={{whiteSpace: 'nowrap'}}>Spotify API & Next.js</span></span>
+          <span className="byline">*of the last 4 weeks. made by <a href="https://www.kristencabrera.com/">kris10cabrera</a> using the <span style={{ whiteSpace: 'nowrap' }}>Spotify API & Next.js</span></span>
         </header>
         <section className="parent">
           <section className="cube" style={cubeStyle}>
